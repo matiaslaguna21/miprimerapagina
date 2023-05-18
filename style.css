@@ -1,0 +1,28 @@
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+    background-color:aliceblue ;
+    text-align: center;
+  }
+  .row {  
+    margin: 30px;
+    padding: 20px;
+    width: 1000px;
+    height: 500px;
+    background-color:blue;
+  }  
+  .column {
+    flex: 1;
+    padding: 60px;
+    background-color: greenyellow;
+      }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  .saludo {
+    text-align: center;
+  }
